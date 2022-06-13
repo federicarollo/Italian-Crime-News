@@ -25,7 +25,7 @@ _ "algorithm.csv", containing the informations about the algorithms used to find
 
 
 
-**If the code is useful, please consider citing papers using the BibTex entry below.**
+**If the dataset is useful, please consider citing papers using the BibTex entry below.**
 
 ```
 @inproceedings{rollo2020,
@@ -84,5 +84,15 @@ _ "algorithm.csv", containing the informations about the algorithms used to find
   year      = {2021},
   url       = {https://doi.org/10.1007/978-3-030-98997-2\_6},
   doi       = {10.1007/978-3-030-98997-2\_6}
+}
+
+@inproceedings{rollo2022,
+  author    = {Federica Rollo and Laura Po and Giovanni Bonisoli},
+  title     = {Online News Event Extraction for Crime Analysis},
+  booktitle = {Proceedings of the 30th Italian Symposium on Advanced Database Systems,
+               {SEBD} 2022, Tirrenia (PI), Italy, June 19-22, 2022},
+  series    = {{CEUR} Workshop Proceedings}
+  publisher = {CEUR-WS.org},
+  year      = {2022}
 }
 ```
