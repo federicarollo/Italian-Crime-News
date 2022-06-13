@@ -14,7 +14,7 @@ Other researchers can employ the dataset to apply other algorithms of text categ
 
 At the moment, the information is organized in the following files:
 
-_ "italian_crime_news.csv", the actual dataset containing the main information about the news articles: id, url, title, sub title, text, municipality, area, address, publication_date, event_date, latitude, longitude, newspaper_tag, word2vec_tag, newspaper.
+_ "italian_crime_news.csv", the actual dataset containing the main information about the news articles: id, url, title, sub title, text, place of the event occurrence (municipality, area, address), publication_date, event_date (i.e., ), latitude, longitude, newspaper_tag, word2vec_tag, newspaper.
 
 _ "duplicate.csv", containing the records associating duplicate news articles: id_news1, id_news2, algorithm, similarity_score.
 
