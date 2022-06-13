@@ -24,3 +24,59 @@ _ "algorithm.csv", containing the informations about the algorithms used to find
 
 
 
+
+**If the code is useful, please consider citing papers using the BibTex entry below.**
+
+```
+@inproceedings{rollo2020,
+  author    = {Federica Rollo and
+               Laura Po},
+  editor    = {Jeff Z. Pan and
+               Valentina A. M. Tamma and
+               Claudia d'Amato and
+               Krzysztof Janowicz and
+               Bo Fu and
+               Axel Polleres and
+               Oshani Seneviratne and
+               Lalana Kagal},
+  title     = {Crime Event Localization and Deduplication},
+  booktitle = {The Semantic Web - {ISWC} 2020 - 19th International Semantic Web Conference,
+               Athens, Greece, November 2-6, 2020, Proceedings, Part {II}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {12507},
+  pages     = {361--377},
+  publisher = {Springer},
+  year      = {2020},
+  doi       = {10.1007/978-3-030-62466-8\_23}
+}
+
+@inproceedings{bonisoli2021,
+  author    = {Giovanni Bonisoli and
+               Federica Rollo and
+               Laura Po},
+  editor    = {Maria Ganzha and
+               Leszek A. Maciaszek and
+               Marcin Paprzycki and
+               Dominik Slezak},
+  title     = {Using Word Embeddings for Italian Crime News Categorization},
+  booktitle = {Proceedings of the 16th Conference on Computer Science and Intelligence Systems, Online, September 2-5, 2021},
+  pages     = {461--470},
+  year      = {2021},
+  url       = {https://doi.org/10.15439/2021F118},
+  doi       = {10.15439/2021F118}
+}
+
+@InProceedings{rollo2022,
+author="Rollo, Federica
+and Bonisoli, Giovanni
+and Po, Laura",
+editor="Ziemba, Ewa and Chmielarz, Witold",
+title="Supervised and Unsupervised Categorization of an Imbalanced Italian Crime News Dataset",
+booktitle="Information Technology for Management: Business and Social Issues",
+year="2022",
+publisher="Springer International Publishing",
+address="Cham",
+pages="117--139",
+isbn="978-3-030-98997-2"
+}
+```
