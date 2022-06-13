@@ -13,6 +13,7 @@ Now, we are working on the application of question answering to extract the 5W+1
 Other researchers can employ the dataset to apply other algorithms of text categorization and duplicate detection and compare their results with the benchmark. The dataset can be useful for several scopes, e.g., geo-localization of the events, text summarization, crime analysis, crime prediction, community detection, topic modeling.
 
 At the moment, the information is organized in the following files:
+
 _ "italian_crime_news.csv", the actual dataset containing the main information about the news articles: id, url, title, sub title, text, municipality, area, address, publication_date, event_date, latitude, longitude, newspaper_tag, word2vec_tag, newspaper.
 
 _ "duplicate.csv", containing the records associating duplicate news articles: id_news1, id_news2, algorithm, similarity_score.
