@@ -66,7 +66,7 @@ _ "algorithm.csv", containing the informations about the algorithms used to find
   doi       = {10.15439/2021F118}
 }
 
-@inproceedings{rollo2022,
+@inproceedings{rollo2021,
   author    = {Federica Rollo and
                Giovanni Bonisoli and
                Laura Po},
