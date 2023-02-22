@@ -2,7 +2,7 @@
 
 The dataset contains the main components of the news articles published online by the newspaper named <a href="https://gazzettadimodena.gelocal.it/modena">Gazzetta di Modena</a>: url of the web page, title, sub-title, text, date of publication, crime category assigned to each news article by the author.
 
-The news articles are written in Italian and describe 11 types of crime events occurred in the province of Modena between the end of 2011 and 2021.
+The news articles are written in Italian and describe 13 types of crime events occurred in the province of Modena between the end of 2011 and 2021.
 
 Moreover, the dataset includes data derived from the abovementioned components thanks to the application of Natural Language Processing techniques. Some examples are the place of the crime event occurrence (municipality, area, address and GPS coordinates), the date of the occurrence, and the type of the crime events described in the news article obtained by an automatic categorization of the text.
 
