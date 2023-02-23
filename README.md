@@ -1,6 +1,13 @@
 # DICE: a Dataset of Italian Crime Event news
 
+DICE is a collection of news articles describing crime events that happened in the province of Modena, Italy, between the end of 2011 and 2021.
+
 10,395 news articles, 21 of them have empty text
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 The dataset contains the main components of the news articles published online by the newspaper named <a href="https://gazzettadimodena.gelocal.it/modena">Gazzetta di Modena</a>: url of the web page, title, sub-title, text, date of publication, crime category assigned to each news article by the author.
 
