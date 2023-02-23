@@ -1,5 +1,7 @@
 # DICE: a Dataset of Italian Crime Event news
 
+10,395 news articles, 21 of them have empty text
+
 The dataset contains the main components of the news articles published online by the newspaper named <a href="https://gazzettadimodena.gelocal.it/modena">Gazzetta di Modena</a>: url of the web page, title, sub-title, text, date of publication, crime category assigned to each news article by the author.
 
 Thanks to an agreement between the University of Modena and Reggio Emilia and the Gazzetta di Modena, signed on May 2022, the corpus is free to redistribute and transform without encountering legal copyright issues under an Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
