@@ -33,9 +33,9 @@ _ "duplicate.csv" contains the records associating duplicate news articles: id_n
 
 _ "algorithm.csv" contains information about the algorithms used to find duplicates contained in the file "duplicate.csv": id, name, numofdays, configurations.
 
-_ "automatic_annotation.jsonl" contains the named entities found by Tint, the time expressions identified by Heideltime, and DBpedia URIs obtained by DBpedia Spotlight deom the text of the news.
+_ "automatic_annotation.jsonl" contains the named entities found by Tint, the time expressions identified by Heideltime, and DBpedia URIs obtained by DBpedia Spotlight from the text of the news for all the news articles in the dataset.
 
-_ "annotation.jsonl" contains the automatic annotation mentioned above and the manual annotation of What was stolen in the theft, Where the theft occurred, Which store or company was robbed, Who is the thief or criminal, Who was mugged.
+_ "annotation.jsonl" contains the automatic annotation mentioned above and the manual annotation of What was stolen in the theft, Where the theft occurred, Which store or company was robbed, Who is the thief or criminal, Who was mugged. This annotation is available for 131 news articles, since 42 of them are news articles not related to thefts or contain information abount more events, they have been not annotated.
 
 _ "Linee guida per l'annotazione V2.1.pdf" is the file with the guidelines followed for the manual annotation.
 
