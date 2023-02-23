@@ -4,10 +4,21 @@ DICE is a collection of news articles describing crime events that happened in t
 
 10,395 news articles, 21 of them have empty text
 
-| First Header  | Second Header |
+| Number of documents  | 10,395 |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Theft | 7,627 (73.37\%) |
+| Drug dealing | 934 (8.99\%) |
+| Aggression | 426 (4.10\%) |
+| Illegal sale | 339 (3.26\%) |
+| Mistreatment | 201 (1.93\%) |
+| Robbery | 182 (1.75\%) |
+| Scam | 171 (1.65\%) |
+| Evasion | 135 (1.30\%) |
+| Sexual violence | 124 (1.19\%) |
+| Money laundering | 98 (0.94\%) |
+| Kidnapping | 66 (0.63\%) |
+| Murder | 54 (0.52\%) |
+| Fraud | 38 (0.37\%) |
 
 The dataset contains the main components of the news articles published online by the newspaper named <a href="https://gazzettadimodena.gelocal.it/modena">Gazzetta di Modena</a>: url of the web page, title, sub-title, text, date of publication, crime category assigned to each news article by the author.
 
