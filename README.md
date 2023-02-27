@@ -1,6 +1,6 @@
 # DICE: a Dataset of Italian Crime Event news
 
-DICE is a collection of Italian news articles describing 13 types of crime events that happened in the province of Modena, Italy, between the end of 2011 and 2021.
+DICE is a collection of 10,395 Italian news articles describing 13 types of crime events that happened in the province of Modena, Italy, between the end of 2011 and 2021.
 
 | Number of documents  |  10,395 |
 | ------------- |  ------------- |
@@ -27,17 +27,15 @@ Moreover, the dataset includes data derived from the abovementioned components t
 
 At the moment, the data are organized in the following files:
 
-_ "italian_crime_news.csv" is the actual dataset containing the main information about the news articles: id, url, title, sub title, text, place of the event occurrence (municipality, area, address), latitude and longitude (i.e., the GPS coordinates of the place), publication_date, event_date (i.e., when the crime occurred), newspaper_tag (i.e., crime category provided by the newspaper), word2vec_tag (i.e., crime category obtained by applying different categorization algorithms to the embeddings of news articles'body), newspaper/publisher.
+_ "italian_crime_news.csv" is the actual dataset containing some information about the news articles: id, url, title, sub title, text, place of the event occurrence (municipality, area, address), latitude and longitude (i.e., the GPS coordinates of the place), publication_date, event_date (i.e., when the crime occurred), newspaper_tag (i.e., crime category provided by the newspaper), word2vec_tag (i.e., crime category obtained by applying different categorization algorithms to the embeddings of news articles'body), newspaper/publisher.
 
-_ "duplicate.csv" contains the records associating duplicate news articles: id_news1, id_news2, algorithm, similarity_score.
-
-_ "algorithm.csv" contains information about the algorithms used to find duplicates contained in the file "duplicate.csv": id, name, numofdays, configurations.
+_ "duplicate detection" is the folder containing the configuration of the algorithms used to find duplicates ("algorithm.csv") and the news articles identified as duplicates with the corresponding similarity score ("duplicate.csv").
 
 _ "automatic_annotation.jsonl" contains the named entities found by Tint, the time expressions identified by Heideltime, and DBpedia URIs obtained by DBpedia Spotlight from the text of the news for all the news articles in the dataset.
 
-_ "annotation.jsonl" contains the automatic annotation mentioned above and the manual annotation of What was stolen in the theft, Where the theft occurred, Which store or company was robbed, Who is the thief or criminal, Who was mugged. This annotation is available for 131 news articles, since 42 of them are news articles not related to thefts or contain information abount more events, they have been not annotated.
+_ "annotation.jsonl" contains the automatic annotation mentioned above and the manual annotation of _What_ was stolen in the theft, _Where_ the theft occurred, _Who_ is the thief or criminal, _Who_ was mugged. This annotation is available for 131 news articles, since 42 of them are news articles not related to thefts or contain information abount more events, they have been not annotated.
 
-_ "Linee guida per l'annotazione V2.1.pdf" is the file with the guidelines followed for the manual annotation.
+_ "Linee guida per l'annotazione V2.1.pdf" is the file with the Italian guidelines followed for the manual annotation.
 
 
 We plan to increase the number of the current manual annotations to 1,000 documents by the end of 2023.
