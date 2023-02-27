@@ -27,18 +27,15 @@ Moreover, the dataset includes data derived from the abovementioned components t
 
 At the moment, the data are organized in the following files:
 
-_ "italian_crime_news.csv" is the actual dataset containing some information about the news articles: id, url, title, sub title, text, place of the event occurrence (municipality, area, address), latitude and longitude (i.e., the GPS coordinates of the place), publication_date, event_date (i.e., when the crime occurred), newspaper_tag (i.e., crime category provided by the newspaper), word2vec_tag (i.e., crime category obtained by applying different categorization algorithms to the embeddings of news articles'body), newspaper/publisher.
+- __italian_crime_news.csv__ is the actual dataset containing some information about the news articles: id, url, title, sub title, text, place of the event occurrence (municipality, area, address), latitude and longitude (i.e., the GPS coordinates of the place), publication_date, event_date (i.e., when the crime occurred), newspaper_tag (i.e., crime category provided by the newspaper), word2vec_tag (i.e., crime category obtained by applying different categorization algorithms to the embeddings of news articles'body), newspaper/publisher.
 
-_ "duplicate detection" is the folder containing the configuration of the algorithms used to find duplicates ("algorithm.csv") and the news articles identified as duplicates with the corresponding similarity score ("duplicate.csv").
+- __duplicate detection__ is the folder containing the configuration of the algorithms used to find duplicates ("algorithm.csv") and the news articles identified as duplicates with the corresponding similarity score ("duplicate.csv").
 
-_ "automatic_annotation.jsonl" contains the named entities found by Tint, the time expressions identified by Heideltime, and DBpedia URIs obtained by DBpedia Spotlight from the text of the news for all the news articles in the dataset.
+- __automatic_annotation.jsonl__ contains the named entities found by Tint, the time expressions identified by Heideltime, and DBpedia URIs obtained by DBpedia Spotlight from the text of the news for all the news articles in the dataset.
 
-_ "annotation.jsonl" contains the automatic annotation mentioned above and the manual annotation of _What_ was stolen in the theft, _Where_ the theft occurred, _Who_ is the thief or criminal, _Who_ was mugged. This annotation is available for 131 news articles, since 42 of them are news articles not related to thefts or contain information abount more events, they have been not annotated.
+- __annotation.jsonl__ contains the automatic annotation mentioned above and the manual annotation of _What_ was stolen in the theft, _Where_ the theft occurred, _Who_ is the thief or criminal, _Who_ was mugged. This annotation was made by 2 expert annotators and one competent annotator following the guidelines in __Linee guida per l'annotazione V2.1.pdf__. We selected 131 news articles for manual annotation, however, entities and relations were annotated in 89 news articles since 42 news articles are not related to thefts or contain information about more events, thus, they were not annotated.
 
-_ "Linee guida per l'annotazione V2.1.pdf" is the file with the Italian guidelines followed for the manual annotation.
-
-
-We plan to increase the number of the current manual annotations to 1,000 documents by the end of 2023.
+__Future Work__: we plan to increase the number of the current manual annotations to 1,000 documents by the end of 2023.
 
 Other researchers can employ the dataset to apply other algorithms of text categorization and duplicate detection and compare their results with the benchmark. The dataset can be useful for several scopes, e.g., geo-localization of the events, text summarization, crime analysis, crime prediction, community detection, topic modeling, news recommendation.
 
