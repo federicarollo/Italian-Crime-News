@@ -1,0 +1,4 @@
+id, name, numofdays, configurations
+1, "Cosine similarity", 3, "{ "description": "news with sub-title", "k-shingle size": [{"title":2}, {"sub-title":2}, {"text":3}], "weights": [{"title":1},  {"sub-title":1.25}, {"text":4}], "score": [{"same municipality":0.025}, {"same day":0.03}, {"one day of difference":0.015}], "threshold": 0.7}"
+2, "Cosine similarity", 3, "{ "description": "news without sub-title", "k-shingle size": [{"title":2}, {"text":3}], "weights": [{"title":1}, {"text":4}], "score": [{"same municipality":0.025}, {"same day":0.03}, {"one day of difference":0.015}], "threshold": 0.7}"
+3, "Cosine similarity", 5, "{ "description": "filter: same event_date or window on publication_date; same municipality or no municipality; same crime category", "k-shingle size": [{"title":2}, {"text":3}], "weights": [{"title":1}, {"sub-title":1.25}, {"text":4}], "score": [{"same municipality":0.025}, {"same day":0.03}, {"one day of difference":0.015}], "threshold": 0.7}"
