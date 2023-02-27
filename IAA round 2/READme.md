@@ -1,12 +1,12 @@
 # IAA Second Round
 
-This folder contains the results of the second round of IAA. At the moment, it contains the following files:
+This folder contains the results of the second round of Inter Annotator Agreement (IAA). At the moment, it contains the following files:
 
-_ "gold_standard.jsonl" contains the 30 news of the gold standard
+- __gold_standard.jsonl__ contains 30 manually annotated news articles which are the gold standard.
 
-_ "expert.jsonl" contains the annotations from the expert on the 30 news.
+- __expert.jsonl__ contains the news articles of the gold standard annotated by an expert annotator.
 
-_ "annotator.jsonl" contains the annotations from the annotator on the 30 news.
+- __annotator.jsonl__ contains the news articles of the gold standard annotated by a competent annotator.
 
 The table shows the performances of the two annotators w.r.t. the gold standard.
 
