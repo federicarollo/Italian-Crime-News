@@ -33,6 +33,8 @@ At the moment, the data are organized in the following files:
 
 - __automatic_annotation.jsonl__ contains the named entities found by Tint, the time expressions identified by Heideltime, and the DBpedia URIs obtained by DBpedia Spotlight from the text of the news for all the news articles in the dataset. The Java code used to extract these annotations is published in the folder __automatic annotation__.
 
+| News selected     | 10,395 |
+| ----------------- | ------ |
 | Geolocalized news |  8,295 |
 | Duplicate news    |  1,866 |
 | NER objects       | 75,256 |
