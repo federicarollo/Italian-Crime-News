@@ -3,7 +3,7 @@
 DICE is a collection of 10,395 Italian news articles describing 13 types of crime events that happened in the province of Modena, Italy, between the end of 2011 and 2021.
 
 | Number of documents  |  10,395 |
-| ------------- |  ------------- |
+| ------------- |  -------------: |
 | Theft |        7,627 (73.37\%) |
 | Drug dealing |    934 (8.99\%) |
 | Aggression |      426 (4.10\%) |
