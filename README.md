@@ -31,9 +31,11 @@ At the moment, the data are organized in the following files:
 
 - __duplicate detection__ is the folder containing the configuration of the algorithms used to find duplicates ("algorithm.csv") and the news articles identified as duplicates with the corresponding similarity score ("duplicate.csv").
 
-- __automatic_annotation.jsonl__ contains the named entities found by Tint, the time expressions identified by Heideltime, and DBpedia URIs obtained by DBpedia Spotlight from the text of the news for all the news articles in the dataset.
+- __automatic_annotation.jsonl__ contains the named entities found by Tint, the time expressions identified by Heideltime, and the DBpedia URIs obtained by DBpedia Spotlight from the text of the news for all the news articles in the dataset. The Java code used to extract these annotations is published in the folder __automatic annotation__.
 
 - __annotation.jsonl__ contains the automatic annotation mentioned above and the manual annotation of _What_ was stolen in the theft, _Where_ the theft occurred, _Who_ is the thief or criminal, _Who_ was mugged. This annotation was made by 2 expert annotators and one competent annotator following the guidelines in __Linee guida per l'annotazione V2.1.pdf__. We selected 131 news articles for manual annotation, however, entities and relations were annotated in 89 news articles since 42 news articles are not related to thefts or contain information about more events, thus, they were not annotated. N.B. this file is constantly updated to add new annotated news articles!
+
+- __annotation csv__ is the folder containing one file for each news article, the name of the file is the identifier (id) used in italian_crime_news.csv, the format of the file is a CSV with three columns: the token of the news article's text, the labels associated to that token by the automatic annotation and the manual annotation and, if present, the relations found by the manual annotation.
 
 __Future Work__: we plan to increase the number of the current manual annotations to 1,000 documents by the end of 2023.
 
