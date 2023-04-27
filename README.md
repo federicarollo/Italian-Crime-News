@@ -45,21 +45,16 @@ At the moment, the data are organized in the following files:
 
 - __annotation.jsonl__ contains the automatic annotation mentioned above and the manual annotation of _What_ was stolen in the theft, _Where_ the theft occurred, _Who_ is the thief or criminal, _Who_ was mugged. This annotation was made by 2 expert annotators and one competent annotator following the guidelines in __Linee guida per l'annotazione V2.1.pdf__. We selected 131 news articles for manual annotation, however, entities and relations were annotated in 89 news articles since 42 news articles are not related to thefts or contain information about more events, thus, they were not annotated. __N.B. this file is constantly updated to add new annotated news articles!__
 
-| News selected                     | 131 |
+| News selected                     | 1000 |
 | -----------------             | ------: |
-| Multi-events news                  | 22 |
-| Other crimes different from thefts | 12 |
-| Other types of news                |  8 |
-| __Not annotable news__         | __42__ |
-| Attempted thefts                    | 6 |
-| __Annotable news__             | __89__ |
-| OBJ - relations for OBJ      | 134 - 15 |
-| AUT - relations for AUT      | 143 - 50 |
-| AUTG                               | 35 |
-| VIC - relations for VIC       | 36 - 10 |
-| VICG                                | 3 |
-| PAR                                | 44 |
-| LOC                               | 167 |
+| __Single event theft news__             | __406__ |
+| OBJ - relations for OBJ      | 664 - 74 |
+| AUT - relations for AUT      | 675 - 259 |
+| AUTG                               | 162 |
+| VIC - relations for VIC       | 203 - 63 |
+| VICG                                | 23 |
+| PAR                                | 175 |
+| LOC                               | 686 |
 
 - __annotation csv__ is the folder containing one file for each news article, the name of the files is the identifier (id) used in italian_crime_news.csv, the format of the files is a CSV with three columns: the token of the news article's text, the labels associated to that token by the automatic annotation and the manual annotation and, if present, the relations found by the manual annotation. The data contained in these files are also in the files automatic_annotation.jsonl and annotation.jsonl.
 
