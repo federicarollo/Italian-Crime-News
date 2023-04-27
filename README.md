@@ -58,7 +58,7 @@ At the moment, the data are organized in the following files:
 
 - __annotation csv__ is the folder containing one file for each news article, the name of the files is the identifier (id) used in italian_crime_news.csv, the format of the files is a CSV with three columns: the token of the news article's text, the labels associated to that token by the automatic annotation and the manual annotation and, if present, the relations found by the manual annotation. The data contained in these files are also in the files automatic_annotation.jsonl and annotation.jsonl.
 
-__Future Work__: we plan to increase the number of the current manual annotations to 1,000 documents by the end of 2023.
+<!--- __Future Work__: we plan to increase the number of the current manual annotations to 1,000 documents by the end of 2023. -->
 
 Other researchers can employ the dataset to apply other algorithms of text categorization and duplicate detection and compare their results with the benchmark. The dataset can be useful for several scopes, e.g., geo-localization of the events, text summarization, crime analysis, crime prediction, community detection, topic modeling, news recommendation.
 
