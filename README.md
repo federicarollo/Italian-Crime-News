@@ -47,7 +47,7 @@ At the moment, the data are organized in the following files:
 
 | News selected                     | 1000 |
 | -----------------             | ------: |
-| __Single event theft news__             | __406__ |
+| Single event theft news             | 406 |
 | OBJ - relations for OBJ      | 664 - 74 |
 | AUT - relations for AUT      | 675 - 259 |
 | AUTG                               | 162 |
