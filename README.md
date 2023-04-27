@@ -43,7 +43,7 @@ At the moment, the data are organized in the following files:
 | DBpedia link      | 42,545 |
 | Time expression   | 20,832 |
 
-- __annotation.jsonl__ contains the automatic annotation mentioned above and the manual annotation of _What_ was stolen in the theft, _Where_ the theft occurred, _Who_ is the thief or criminal, _Who_ was mugged. This annotation was made by 2 expert annotators and one competent annotator following the guidelines in __Linee guida per l'annotazione V2.1.pdf__. We selected 131 news articles for manual annotation, however, entities and relations were annotated in 89 news articles since 42 news articles are not related to thefts or contain information about more events, thus, they were not annotated. __N.B. this file is constantly updated to add new annotated news articles!__
+- __annotation.jsonl__ contains the automatic annotation mentioned above and the manual annotation of _What_ was stolen in the theft, _Where_ the theft occurred, _Who_ is the thief or criminal, _Who_ was mugged. This annotation was made by 2 expert annotators and one competent annotator following the guidelines in __Linee guida per l'annotazione V2.1.pdf__. We selected 1000 news articles for manual annotation, however, entities and relations were annotated in 406 news articles since 161 news articles are releted to other types of crimes, 135 to multiple events, and the remaining 298 do not concern crimes, thus, they were not annotated. __N.B. this file is constantly updated to add new annotated news articles!__
 
 | News selected                     | 1000 |
 | -----------------             | ------: |
