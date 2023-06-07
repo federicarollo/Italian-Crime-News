@@ -66,6 +66,25 @@ Other researchers can employ the dataset to apply other algorithms of text categ
 **If the dataset is useful, please consider citing papers using the BibTex entry below.**
 
 ```
+@inproceedings{bonisoli2023,
+  author       = {Giovanni Bonisoli and
+                  Maria Pia di Buono and
+                  Laura Po and
+                  Federica Rollo},
+  editor       = {Hsin-Hsi Chen and
+                  Wei-Jou Edward Duh and
+                  Hen-Hsen Huang and
+                  Makoto P. Kato and
+                  Josiane Mothe and
+                  Barbara Poblete},
+  title        = {DICE: A Dataset of Italian Crime Event news},
+  booktitle    = {{SIGIR} '23: The 46th International {ACM} {SIGIR} Conference on Research
+                  and Development in Information Retrieval, Taipei, Taiwan, July 23 - 27, 2023},
+  publisher    = {{ACM}},
+  year         = {2023},
+  doi          = {10.1145/3539618.3591904}
+}
+
 @inproceedings{rollo2020,
   author    = {Federica Rollo and
                Laura Po},
