@@ -17,8 +17,8 @@ una,,
 Panda,[88467]DBPEDIA,
 parcheggiata,,
 in,,
-via,[88461]NER_LOC,
-Rossini,"[88461]NER_LOC, [88468]DBPEDIA",
+via,"[88461]NER_LOC, [6290]_LOC",
+Rossini,"[88461]NER_LOC, [88468]DBPEDIA, [6290]_LOC",
 ",",,
 a,,
 due,,
@@ -28,7 +28,7 @@ centro,,
 ",",,
 di,,
 un,,
-uomo,,
+uomo,[6291]_AUT,
 che,,
 non,,
 aveva,,
@@ -74,18 +74,18 @@ sorpreso,,
 tutto,,
 indaffarato,,
 il,,
-67enne,,
-S,[88469]DBPEDIA,
-.,[88469]DBPEDIA,
-M,[88469]DBPEDIA,
-.,[88469]DBPEDIA,
+67enne,[6292]_AUT,[6291]_AUT
+S,"[88469]DBPEDIA, [6293]_AUT",[6291]_AUT
+.,"[88469]DBPEDIA, [6293]_AUT",[6291]_AUT
+M,"[88469]DBPEDIA, [6293]_AUT",[6291]_AUT
+.,"[88469]DBPEDIA, [6293]_AUT",[6291]_AUT
 ",",,
 di,,
-Napoli,"[88463]NER_LOC, [88470]DBPEDIA",
+Napoli,"[88463]NER_LOC, [88470]DBPEDIA, [6295]_AUT",[6291]_AUT
 ma,,
-residente,,
-a,,
-Serramazzoni,"[88464]NER_LOC, [88471]DBPEDIA",
+residente,[6296]_AUT,[6291]_AUT
+a,[6296]_AUT,[6291]_AUT
+Serramazzoni,"[88464]NER_LOC, [88471]DBPEDIA, [6296]_AUT",[6291]_AUT
 ",",,
 pensionato,,
 con,,
