@@ -57,14 +57,6 @@ At the moment, the data are organized in the following files:
 | PAR                                | 282 |
 | LOC                               | 1090 |
 =======
-| OBJ - relations for OBJ      | 664 - 74 |
-| AUT - relations for AUT      | 675 - 259 |
-| AUTG                               | 162 |
-| VIC - relations for VIC       | 203 - 63 |
-| VICG                                | 23 |
-| PAR                                | 175 |
-| LOC                               | 686 |
->>>>>>> 09fccebdcdde4c175fa8604d25364d0b1d02ee82
 
 - __annotation csv__ is the folder containing one file for each news article, the name of the files is the identifier (id) used in italian_crime_news.csv, the format of the files is a CSV with three columns: the token of the news article's text, the labels associated to that token by the automatic annotation and the manual annotation and, if present, the relations found by the manual annotation. The data contained in these files are also in the files automatic_annotation.jsonl and annotation.jsonl.
 
