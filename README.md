@@ -43,11 +43,12 @@ At the moment, the data are organized in the following files:
 | DBpedia link      | 42,545 |
 | Time expression   | 20,832 |
 
-- __annotation.jsonl__ contains the automatic annotation mentioned above and the manual annotation of _What_ was stolen in the theft, _Where_ the theft occurred, _Who_ is the thief or criminal, _Who_ was mugged. This annotation was made by 2 expert annotators and one competent annotator following the guidelines in __Linee guida per l'annotazione V2.1.pdf__. We selected 1000 news articles for manual annotation, however, entities and relations were annotated in 406 news articles since 161 news articles are releted to other types of crimes, 135 to multiple events, and the remaining 298 do not concern crimes, thus, they were not annotated. __N.B. this file is constantly updated to add new annotated news articles!__
+- __annotation.jsonl__ contains the automatic annotation mentioned above and the manual annotation of _What_ was stolen in the theft, _Where_ the theft occurred, _Who_ is the thief or criminal, _Who_ was mugged. This annotation was made by 2 expert annotators and one competent annotator following the guidelines in __Linee guida per l'annotazione V2.1.pdf__. We selected 1200 news articles for manual annotation, however, entities and relations were annotated in 606 news articles since 161 news articles are releted to other types of crimes, 135 to multiple events, and the remaining 298 do not concern crimes, thus, they were not annotated. __N.B. this file is constantly updated to add new annotated news articles!__
 
 | News selected                     | 1200 |
 | -----------------             | ------: |
 | Single event theft news             | 606 |
+<<<<<<< HEAD
 | OBJ - relations for OBJ      | 1069 - 134 |
 | AUT - relations for AUT      | 800 - 445 |
 | AUTG                               | 278 |
@@ -55,6 +56,15 @@ At the moment, the data are organized in the following files:
 | VICG                                | 40 |
 | PAR                                | 282 |
 | LOC                               | 1090 |
+=======
+| OBJ - relations for OBJ      | 664 - 74 |
+| AUT - relations for AUT      | 675 - 259 |
+| AUTG                               | 162 |
+| VIC - relations for VIC       | 203 - 63 |
+| VICG                                | 23 |
+| PAR                                | 175 |
+| LOC                               | 686 |
+>>>>>>> 09fccebdcdde4c175fa8604d25364d0b1d02ee82
 
 - __annotation csv__ is the folder containing one file for each news article, the name of the files is the identifier (id) used in italian_crime_news.csv, the format of the files is a CSV with three columns: the token of the news article's text, the labels associated to that token by the automatic annotation and the manual annotation and, if present, the relations found by the manual annotation. The data contained in these files are also in the files automatic_annotation.jsonl and annotation.jsonl.
 
